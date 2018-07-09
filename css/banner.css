@@ -85,6 +85,12 @@
     
     .flexslider .slides a img {
         width: 100%;
-        height: 650px;
         display: block;
+    }
+    .duanbiao{display: inline-block;
+    	width: 198px;
+    	height: 99px;
+    	position: absolute;
+    	top: 0px;
+    	left: 0px;
     }

@@ -69,7 +69,7 @@
 .glyphicon-chevron-right:before{color: #28489D;}
 img{max-width:100%}
 ul,ul li{list-style:none}
-body{color:#666;font:12px/1.8 "微软雅黑","\5b8b\4f53",Arial,sans-serif;background-color: #f7f7f7;}
+body{color:#666;font:12px/1.8 "微软雅黑","\5b8b\4f53",Arial,sans-serif;background-color: #f1f1f1;}
 /*a{-webkit-transition:all .3s;-moz-transition:all .6s;-ms-transition:all .6s;-o-transition:all .6s;transition:all .6s}*/
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{opacity:.8}
 .navbar-fixed-top{border-width:0}
@@ -139,7 +139,7 @@ body{color:#666;font:12px/1.8 "微软雅黑","\5b8b\4f53",Arial,sans-serif;backg
 
 
 /*.section-block h2.title:after{content:'';display:block;border-bottom:3px solid #999;margin:12px 10px}*/
-#aboutus{font-size:16px;background-color: #f7f7f7;padding: 50px 0}
+#aboutus{font-size:16px;background-color: #f7f7f7;padding: 70px 0}
 #aboutus h2,#aboutus p{color:#333;font-size: 24px;color: #8a9298;line-height: 48px;}
 #aboutus .import{font-size:20px;color:#25499d}
 #aboutus .btn{margin:40px auto 0}
@@ -170,7 +170,7 @@ body{color:#666;font:12px/1.8 "微软雅黑","\5b8b\4f53",Arial,sans-serif;backg
 .com_banner .cornerBL{left:-63px;bottom:-63px}
 .com_banner .cornerBR{right:-63px;bottom:-63px}
 .com_banner p{display:none;left:0;top:28px;width:100%;z-index:200;position:absolute;font-size:14px;color:#fff;text-align:center;cursor:pointer}
-#design{font-size:16px;padding: 50px 0px ;}
+#design{font-size:16px;padding-bottom: 130px ;background-color: white;}
 #design h3{color:#666666;font-weight:700;font-size:28px;margin-top:0}
 #design p em{font-style:normal;color:#25499d}
 #design img{width:280px;height:auto}
@@ -379,13 +379,22 @@ button.click .icon-bar:nth-child(3){opacity:0}
 	top: 0;
 	left: 0;
 	margin: 0 15px;
-	padding: 8px;
 	background: rgba(0,0,0,0.7);
-	height: 240px;
+	height: 99px;
+	width: 198px;
 	color: white;
 	font-size: 16px;
-	text-align: left;
+	text-align: center;
 	display: none;
-	padding: 20px;
 	}
-
+.juzhong{
+	width: 198px; height: 99px; vertical-align: middle; display: table-cell; overflow: hidden; 
+	padding: 20px;
+}
+.col-md-2:hover .jieshao{
+	display: block;
+}
+.tubiao{
+	margin-bottom: 30px;
+}
+.clear{clear: both;}
